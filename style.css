@@ -1,0 +1,339 @@
+img {
+    width: 100%;
+}
+body{
+    margin-left:60px;
+    margin-right:40px;
+}
+/*-----header-----*/
+#logo img {
+    width: 210px;
+}
+#main-header{
+    margin-top:10px;
+}
+#site-title{
+    margin-bottom:0px;
+}
+#site-title a {
+    font-size: 1.8rem;
+    color: #1a1a1a;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1.25;
+    font-family: sans-serif;
+}
+
+#main-header a img{
+    width:120px;
+    height:120px;
+}
+#site-title a:hover {
+    color: #dc6520;
+   
+}
+
+#about-site {
+    color: #3c5349;
+}
+#header-image{
+    margin-top:50px;
+}
+#codingimg{
+    display: flex;
+  font-size: 1.5rem;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+ box-shadow: 0px 0px 3px 3px lightgray;
+ margin-bottom: 8px;
+ 
+}
+#codingimg img {
+    width: 50%;
+    height: 271px;
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+/*-----main-----*/
+main{
+    display: inline-block;
+    width: 70%;
+}
+#blog-header h1 {
+    font-size: 3.2rem;
+    color: #13222c;
+    font-family: sans-serif;
+}
+#sideimg{
+    display: inline-block;
+}
+#maindiv{
+  display: inline-block;
+  width: 70%;
+}
+#sideimg {
+    vertical-align: top;
+    width: 25%;
+    margin-top: 30px;
+}
+#sideimg a {
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+}
+#sideimg a:hover{
+    color: #dc6520;
+}
+
+
+#sideimg img {
+    height: 80px;
+    width: 90px;
+    border-radius: 40px;
+    margin-bottom: 13px;;
+}
+
+/*-----blog content-----*/
+#blog-content {
+    width: 90%;
+    font-size: 1.1rem;
+    word-spacing: 1px;
+    line-height: 1.4;
+}
+
+.h-style {
+    color: #13222c;
+}
+#blog-title{
+    font-size: 3.1rem;
+}
+#blog-title:hover{
+    color: #dc6520;
+}
+
+#blog-content .sources a {
+  text-decoration: none;
+}
+
+#blog-content .sources a:hover {
+  color: #000000;
+}
+/* aside */
+aside{
+    display: inline-block;
+    width: 21%;
+    vertical-align: top;
+    margin-left: 65px;
+}
+.section{
+    border-top:4px solid #000000 ;
+}
+
+.section input{
+    display: block;
+    background-color: #f7f7f7;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    padding: 5px;
+    color: #000000;
+    border: #f7f7f7c8 solid 2px;
+}
+
+.subscribe-button{
+    font-size: 1.2rem;
+    background-color: #000000;
+    color:white;
+    padding: 10px;
+
+    margin-bottom: 30px;
+}
+.subscribe-button:hover{
+    background-color: #dc6520;
+}
+.section h3{
+    font-size: 1.5rem;
+    line-height: 1;
+    text-align: justify;
+}
+/* social section */
+#social{
+   position:fixed;
+   top:150px;
+   left:0px;
+}
+#facebook{
+    display: block;
+    box-sizing: border-box;
+    height: 50px;
+    width: 50px;
+    background-color:#3b5998;
+    padding:9px;
+    /* display:block;
+    padding: 9px;
+    height:40px;
+    width:40px;
+    background-color:  #3b5998;
+    box-sizing: border-box; */
+}
+#social #facebook img{
+    display: block;
+    height: 25px;
+    width: 25px;
+    /* vertical-align: middle; */
+    
+}
+#facebook:hover{
+   background-color: #2d4373;
+}
+#whatsapp{
+    display: block;
+    height: 50px;
+    width: 50px;
+    padding: 9px;
+    background-color: rgb(101, 161, 42);
+    box-sizing: border-box;
+}
+#whatsapp:hover{
+    background-color: #528124;
+}
+#social #whatsapp img{
+    height: 25px;
+    width: 25px;
+    display: block;
+    /* vertical-align: middle; */
+}
+#whatsapp:hover{
+    background-color: #528124;
+}
+#linkedin{
+    display: block;
+   height: 50px;
+   width: 50px; 
+   box-sizing: border-box;
+   background-color:  #0077b5;
+   padding: 9px;
+} 
+#social #linkedin img{
+    display: block;
+    height: 25px;
+    width: 25px;
+}
+#linkedin:hover{
+    background-color: #00121c;
+}
+#twitter{
+    display: block;
+    height: 50px;
+    width: 50px;
+    padding: 9px;
+    background-color: #1DA1F2;
+    box-sizing: border-box;
+}
+#social #twitter img{
+    height: 25px;
+    width: 25px;
+    display: block;
+    /* vertical-align: middle; */
+}
+#twitter:hover{
+    background-color: #55acee;
+}
+#google{
+    display: block;
+    height: 50px;
+    width: 50px;
+    padding: 9px;
+    background-color: #dd4b39;
+    box-sizing: border-box;
+}
+#social #google img{
+    height: 25px;
+    width: 25px;
+    display: block;
+    /* vertical-align: middle; */
+}
+#google:hover{
+    background-color:#c23321;
+}
+#telegram{
+    display: block;
+    height: 50px;
+    width: 50px;
+    padding: 9px;
+    background-color:rgb(41, 170, 236);
+    box-sizing: border-box;
+}
+#social #telegram img{
+    height: 25px;
+    width: 25px;
+    display: block;
+    /* vertical-align: middle; */
+}
+#telegram:hover{
+    background-color: #2d4373;
+}
+/* #search-bar{
+    font-size: 1.1rem;
+    background-color:#f7f7f7;
+    padding:3px;
+    color: #000000;
+    display: inline-block;
+    height: 50px;
+    width: 247px;
+    box-sizing: border-box;
+} */
+#searchicon input{
+    margin-top: 20px;
+    display: inline-block;
+}
+#search{
+    margin-bottom: 45px;
+}
+#searchicon button{
+    box-sizing: border-box;
+    height: 34px;
+    width: 50px;
+    margin-top: 20px;
+    background-color: #f7f7f7;
+    border: #f7f7f7;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+.searchbutton{
+    margin-bottom: 40px;
+}
+#searchicon button:hover{
+    background-color: #dc6520;
+}
+#searchicon img{
+    height: 17px;
+    width: 25px;
+}
+ 
+.widget a{
+   text-decoration: none;
+   color: #dc6520;
+}
+.widget a:hover{
+    color: black;
+}
+
+@media only screen and (max-width:1850px) {
+    #blog-title {
+        font-size: 2.4rem;
+    }
+    
+    
+    
+}
+@media only screen and (max-width:1450px) {
+    #blog-title {
+        font-size: 1.5rem;
+    }
+    
+    
+    
+}
